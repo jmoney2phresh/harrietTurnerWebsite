@@ -7,23 +7,23 @@ const SuzukiBenefitsCarousel = () => {
   const benefits = [
     {
       text: "Improved concentration and focus",
-      icon: "../../public/assets/eye.png",
+      icon: "/assets/eye.png",
     },
     {
       text: "Enhanced listening and memorization skills",
-      icon: "../../public/assets/ear.png",
+      icon: "/assets/ear.png",
     },
     {
       text: "Development of fine motor skills",
-      icon: "../../public/assets/timing-belt.png",
+      icon: "/assets/timing-belt.png",
     },
     {
       text: "Discipline and perseverance",
-      icon: "../../public/assets/soldier.png",
+      icon: "/assets/soldier.png",
     },
     {
       text: "Self-confidence through performance",
-      icon: "../../public/assets/role-model.png",
+      icon: "/assets/role-model.png",
     },
   ];
 

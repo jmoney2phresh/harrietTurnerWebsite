@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import NavBar from "./navBar";
 import Footer from "./footer";
 import "../styling/root.style.css";
+import "../styling/login.style.css";
 
 const Login = () => {
   const [password, setPassword] = useState("");
@@ -21,7 +22,7 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="login content">
       <NavBar />
       <h1>Password Protected Section</h1>
       <form onSubmit={handleSubmit}>
@@ -33,7 +34,7 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit enquire">Submit</button>
       </form>
       <Footer />
     </div>

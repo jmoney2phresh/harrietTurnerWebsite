@@ -9,7 +9,7 @@ const AboutHarriet = () => {
     <>
       <NavBar />
       <div className="aboutHarriet content">
-        <img src="../../public/assets/harriet.webp" alt="" />
+        <img src="/assets/harriet.webp" alt="" />
         <h2>
           Ten years teaching and twenty five years playing
           <br /> help me get the absolute best from every student.

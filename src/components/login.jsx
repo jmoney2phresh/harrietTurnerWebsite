@@ -22,22 +22,24 @@ const Login = () => {
   };
 
   return (
-    <div className="login content">
+    <>
       <NavBar />
-      <h1>Password Protected Section</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Enter Password:
-          <input
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </label>
-        <button type="submit enquire">Submit</button>
-      </form>
+      <div className="login content">
+        <h1>Password Protected Section</h1>
+        <form onSubmit={handleSubmit}>
+          <label>
+            Enter Password:
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
+          </label>
+          <button type="submit enquire">Submit</button>
+        </form>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

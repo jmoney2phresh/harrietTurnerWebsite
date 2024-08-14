@@ -1,0 +1,19 @@
+.homePage {
+  background-color: #022b3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opaque img {
+  height: 400px;
+  width: auto;
+}
+
+.opaque {
+  width: 600px;
+  height: 100%;
+  color: #f6f7ec;
+  padding: 10% 0;
+}

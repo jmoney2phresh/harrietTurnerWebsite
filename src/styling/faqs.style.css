@@ -1,0 +1,13 @@
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url("../../public/assets/sheetMusic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #022b3a;
+  color: #f6f7ec;
+}

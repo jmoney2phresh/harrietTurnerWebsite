@@ -1,0 +1,44 @@
+.suzukiMethod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #022b3a;
+  color: #f6f7ec;
+}
+
+.intro {
+  width: 600px;
+}
+
+.principles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.principlesText ul {
+  max-width: 900px;
+  padding: 0;
+  background-color: #022b3a;
+}
+
+.principlesText ul li {
+  padding: 5px 0;
+}
+
+.principlesImage img {
+  width: 250px;
+  opacity: 35%;
+}
+
+.principles,
+.benefits {
+  margin-bottom: 30px;
+}
+
+.cta {
+  padding: 20px 15% 40px 15%;
+}

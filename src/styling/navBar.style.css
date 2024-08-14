@@ -1,0 +1,45 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #022b3a;
+  gap: 10px;
+  padding: 0 10%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+
+.navLink {
+  font-family: raleway;
+  font-size: 20px;
+  text-decoration: none;
+  color: #cae9ff;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #f7e3af;
+}
+
+.logoArea img {
+  padding-top: 15px;
+  height: 100px;
+}
+
+@media (max-width: 760px) {
+  .logoArea img {
+    height: 80px;
+  }
+  .navLink {
+    font-size: 16px;
+  }
+}

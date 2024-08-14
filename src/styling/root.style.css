@@ -1,0 +1,48 @@
+:root {
+  --gunmetal: #022b3a;
+  --teal: #1f7a8c;
+  --pistachio: #95bf74;
+  --columbia: #cae9ff;
+  --peach: #f7e3af;
+}
+
+@font-face {
+  font-family: playfair;
+  src: url("../../public/assets/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("../../public/assets/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: lora;
+  src: url("../../public/assets/Lora-VariableFont_wght.ttf");
+}
+
+h1,
+h2 {
+  font-family: playfair;
+}
+
+h3,
+h4,
+p {
+  font-family: raleway;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #f6f7ec;
+  margin: 20px 0;
+  width: 80%;
+  align-self: center;
+}
+
+.content {
+  min-height: 77vh;
+  min-width: 100%;
+  overflow: auto;
+}

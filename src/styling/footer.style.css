@@ -1,0 +1,44 @@
+.contactLogo {
+  height: 30px;
+}
+
+.footer {
+  background-color: #022b3a;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contactLink,
+.contactLogo {
+  font-family: raleway;
+  font-size: 16px;
+  text-decoration: none;
+  color: #cae9ff;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.contactLink:hover,
+.contactLogo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #f7e3af;
+}
+
+.copyright {
+  color: #cae9ff;
+  font-size: 12px;
+}
+
+.copyright a {
+  text-decoration: none;
+}

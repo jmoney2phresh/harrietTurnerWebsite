@@ -1,0 +1,109 @@
+body,
+html,
+#root,
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing-page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  background-image: url("../assets/violin.png"); /* Use violin.png as the background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 40%;
+  right: 10%; /* Adjust as needed to position the container */
+  transform: translateY(-50%); /* Center vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align items to the right-hand side */
+  z-index: 4;
+}
+
+.logo {
+  width: 30%; /* Adjust size as needed */
+  height: auto;
+}
+
+.bow {
+  width: 120%;
+  height: auto;
+  z-index: 3;
+  opacity: 0.8;
+}
+
+.enter-button {
+  background-color: #cae9ff;
+  opacity: 0.9;
+  outline: solid 2px #fff;
+  outline-offset: 4px;
+  font-family: lora;
+  padding: 8px 16px; /* Adjust padding */
+  font-size: 20px; /* Adjust font size */
+  cursor: pointer;
+  margin-right: 2.5%;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .landing-page {
+    max-height: 1000px;
+  }
+
+  .overlay-container {
+    right: 5%; /* Adjust for mobile */
+    width: 90%; /* Full width on mobile */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .logo {
+    width: 50%; /* Increase size on mobile */
+    margin-bottom: 2px; /* Further decrease spacing */
+  }
+
+  .enter-button {
+    font-size: 14px; /* Smaller font size for mobile */
+    padding: 6px 12px; /* Adjust padding for mobile */
+    margin-top: 2px; /* Further decrease spacing */
+    margin-right: 0;
+  }
+
+  .bow {
+    width: 200%; /* Adjust width for mobile */
+    top: -15%; /* Adjust position for mobile */
+    left: -50%; /* Center align */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 70%; /* Further increase size on smaller screens */
+    margin-bottom: 1px; /* Minimal spacing */
+  }
+
+  .enter-button {
+    font-size: 12px; /* Smaller font size for very small screens */
+    padding: 4px 8px; /* Adjust padding */
+    margin-top: 1px; /* Minimal spacing */
+  }
+
+  .bow {
+    width: 120%; /* Adjust width for very small screens */
+    top: -5%; /* Adjust position */
+  }
+}

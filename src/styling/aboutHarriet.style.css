@@ -1,0 +1,49 @@
+.aboutHarriet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  background-color: #cae9ff;
+}
+
+.aboutHarriet img {
+  width: 400px;
+  outline: 2px solid #022b3a;
+  outline-offset: 2px;
+}
+
+.aboutHarriet p {
+  max-width: 600px;
+  margin: 10px;
+}
+
+.aboutHarriet h2 {
+  margin: 10px;
+}
+
+.enquire {
+  background-color: #022b3a;
+  outline: solid 2px #fff;
+  outline-offset: 4px;
+  font-family: lora;
+  padding: 8px 16px; /* Adjust padding */
+  font-size: 20px; /* Adjust font size */
+  cursor: pointer;
+  margin-right: 2.5%;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  color: #f6f7ec;
+  text-decoration: none;
+}
+
+.enquire a {
+  color: #f6f7ec;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.enquire a:hover {
+  color: #f7e3af;
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -27,14 +27,12 @@ const Login = () => {
       <div className="login content">
         <h1>Password Protected Section</h1>
         <form onSubmit={handleSubmit}>
-          <label>
-            Enter Password:
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </label>
+          <label>Enter Password:</label>
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
           <button type="submit" className="submit">
             Submit
           </button>

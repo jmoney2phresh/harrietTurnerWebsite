@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="contactDetails">
         <a href="">
           <img
-            src="../public/assets/instagram.png"
+            src="/assets/instagram.png"
             alt="Instagram link"
             className="contactLogo"
           />
@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
         <a href="">
           <img
-            src="../public/assets/soundcloud.png"
+            src="/assets/soundcloud.png"
             alt="Soundcloud link"
             className="contactLogo"
           />

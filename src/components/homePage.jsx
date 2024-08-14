@@ -9,7 +9,7 @@ const HomePage = () => {
       <NavBar />
       <div className="homePage content">
         <div className="opaque">
-          <img src="../../public/assets/homepageViolin.png" alt="" />
+          <img src="/assets/homepageViolin.png" alt="" />
           <h1>Fun. Confident. Lifelong.</h1>
           <p>
             Lorem ipsum odor amet, consectetuer adipiscing elit. Enim leo

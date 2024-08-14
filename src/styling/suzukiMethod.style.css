@@ -42,3 +42,10 @@
 .cta {
   padding: 20px 15% 40px 15%;
 }
+
+@media (max-width: 760px) {
+  .principles {
+    text-align: center;
+    padding: 0 40px;
+  }
+}

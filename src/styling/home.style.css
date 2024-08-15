@@ -16,3 +16,10 @@
   height: 400px;
   width: auto;
 }
+
+@media (max-width: 900px) {
+  .homePage img {
+    height: 250px;
+    width: auto;
+  }
+}

@@ -9,7 +9,7 @@ import "../styling/login.style.css";
 const Login = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const correctPassword = "Adaggio24!"; // Replace with your actual password
+  const correctPassword = "Adagio24!"; // Replace with your actual password
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -9,7 +9,7 @@
 }
 
 .intro {
-  width: 600px;
+  max-width: 600px;
 }
 
 .principles {
@@ -43,6 +43,10 @@
   padding: 20px 15% 40px 15%;
 }
 
+.principlesText ul li strong {
+  color: #f7e3af;
+}
+
 @media (max-width: 900px) {
   .principles {
     text-align: center;
@@ -51,7 +55,13 @@
   .principlesImage {
     display: none;
   }
+  .intro {
+    padding: 0 10%;
+  }
   .cta {
     padding: 0 10% 20px 10%;
+  }
+  .suzukiMethod h1 {
+    padding: 0 10%;
   }
 }

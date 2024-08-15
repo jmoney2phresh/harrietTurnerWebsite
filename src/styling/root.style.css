@@ -26,6 +26,7 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: #022b3a;
 }
 
 h1,
@@ -60,15 +61,19 @@ hr {
 }
 
 @media (max-width: 900px) {
+  html {
+    height: fit-content;
+  }
   .content {
     max-width: 100%;
     padding: 0 20px;
+    min-height: auto;
   }
 }
 
 @media (max-width: 768px) {
   .content {
-    padding: 0 20px;
+    padding: 20px 0;
   }
 
   .homePage {
@@ -113,57 +118,5 @@ hr {
 
   .copyright {
     font-size: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .content {
-    padding: 0 15px;
-    min-height: 60vh;
-  }
-
-  .homePage {
-    padding: 15% 5%;
-  }
-
-  .opaque {
-    width: 100%;
-    padding: 10%;
-  }
-
-  .opaque img {
-    height: 200px;
-    width: 100%;
-  }
-
-  .navBar {
-    flex-direction: column;
-    padding: 0 5%;
-  }
-
-  .navLink {
-    font-size: 14px;
-    gap: 10px;
-  }
-
-  .logoArea img {
-    height: 60px;
-  }
-
-  .contactLogo {
-    height: 20px;
-  }
-
-  .contactDetails {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .contactLink {
-    font-size: 12px;
-  }
-
-  .copyright {
-    font-size: 9px;
   }
 }

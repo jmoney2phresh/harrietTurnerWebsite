@@ -11,7 +11,7 @@ const SuzukiMethod = () => {
       <NavBar />
       <div className="suzukiMethod content">
         <h1>The Suzuki Method</h1>
-        <div class="intro">
+        <div className="intro">
           <p>
             Developed by Japanese violinist Shinichi Suzuki, the Suzuki Method
             is a popular and influential approach to learning the violin. Known
@@ -30,17 +30,15 @@ const SuzukiMethod = () => {
             <img src="../../public/assets/trebleClef.png" alt="" />
           </div>
           <div className="principlesText">
-            <h2>Key Principles of the Suzuki Method</h2>
+            <h2>Principles of the Suzuki Method</h2>
             <ul>
               <li>
                 <strong>Listening</strong>
-                <br /> Listen to music daily. Internalize the sounds and rhythms
-                of the music before attempting to play.
+                <br /> Listen to, internalise and enjoy music daily.
               </li>
               <li>
                 <strong>Repetition</strong>
-                <br /> Learn to play music by repeating pieces until they are
-                mastered.
+                <br /> Repeat pieces until they are mastered.
               </li>
               <li>
                 <strong>Learning with Others</strong>
@@ -48,18 +46,15 @@ const SuzukiMethod = () => {
               </li>
               <li>
                 <strong>Parental Involvement</strong>
-                <br /> Attend lessons, help with practice at home, and provide
-                encouragement.
+                <br /> Help with practice, provide encouragement.
               </li>
               <li>
                 <strong>Starting Early</strong>
-                <br /> Take advantage of the youthful ability to learn languages
-                and skills rapidly.
+                <br /> Take advantage of the youthful ability to learn rapidly.
               </li>
               <li>
                 <strong>Learning by Ear</strong>
-                <br /> Learn to play by ear before learning to read music.
-                Develop strong auditory skills and musical memory.
+                <br /> Play by ear before learning to read music.
               </li>
             </ul>
           </div>
@@ -67,7 +62,7 @@ const SuzukiMethod = () => {
         <hr />
 
         <div className="cta">
-          <h2>Get Started with Suzuki Violin Lessons</h2>
+          <h2>Get Started</h2>
           <p>
             If you're interested in enrolling your child in Suzuki violin
             lessons or learning more about this method, please{" "}

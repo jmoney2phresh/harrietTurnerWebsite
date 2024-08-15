@@ -25,6 +25,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: #022b3a;
+  min-height: 65vh;
 }
 
 .folder-header {

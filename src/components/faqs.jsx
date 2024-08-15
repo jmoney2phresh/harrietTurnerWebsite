@@ -24,7 +24,7 @@ const FAQ = () => {
     {
       question: "Do I need to rent or buy a violin?",
       answer:
-        "Renting is a good option for beginners, especially for young children who will outgrow their instruments. Purchasing might be more economical in the long term for committed students.",
+        "Renting is a good option for beginners or young students who may outgrow their instruments. Purchasing may be more economic for committed students.",
     },
     {
       question: "What method do you use to teach violin?",
@@ -41,22 +41,20 @@ const FAQ = () => {
   return (
     <>
       <NavBar />
-      <div className="faq-section content">
-        <div className="opaque">
-          <h1 className="faq-title">Frequently Asked Questions</h1>
-          {faqData.map((item, index) => (
-            <div key={index} className="faq-item">
-              <h2 className="faq-question" onClick={() => toggleFAQ(index)}>
-                {index + 1}. {item.question}
-              </h2>
-              {openIndex === index && (
-                <div className="faq-answer">
-                  <p>{item.answer}</p>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+      <div className="faqSection content">
+        <h1 className="faqTitle">Frequently Asked Questions</h1>
+        {faqData.map((item, index) => (
+          <div key={index} className="faq-item">
+            <h2 className="faqQuestion" onClick={() => toggleFAQ(index)}>
+              {item.question}
+            </h2>
+            {openIndex === index && (
+              <div className="faqAnswer">
+                <p>{item.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}
       </div>
       <Footer />
     </>

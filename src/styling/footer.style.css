@@ -42,3 +42,11 @@
 .copyright a {
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .contactDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}

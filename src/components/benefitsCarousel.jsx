@@ -36,8 +36,8 @@ const SuzukiBenefitsCarousel = () => {
   };
 
   return (
-    <div className="benefitsText">
-      <h2 className="title">Benefits of the Suzuki Method</h2>
+    <div className="benefitsText content">
+      <h2 className="title">Benefits of Suzuki</h2>
       <div className="carousel">
         {benefits.map((benefit, index) => (
           <div

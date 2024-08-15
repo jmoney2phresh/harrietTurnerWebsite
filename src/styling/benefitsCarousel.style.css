@@ -17,6 +17,7 @@
 .carousel {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .carousel-item {
@@ -38,4 +39,9 @@
 
 .benefitText {
   color: #f6f7ec;
+}
+
+@media (max-width: 768px) {
+  .benefitText {
+  }
 }

@@ -33,7 +33,6 @@
 .testimonial-text {
   font-style: italic;
   color: #f6f7ec;
-  margin-bottom: 10px;
 }
 
 .testimonial-name {
@@ -65,4 +64,13 @@
 .prev-button:hover,
 .next-button:hover {
   color: #0056b3;
+}
+
+@media (max-width: 900px) {
+  .testimonial-card {
+    padding: 20px;
+  }
+  .testimonial-text {
+    max-width: 80%;
+  }
 }

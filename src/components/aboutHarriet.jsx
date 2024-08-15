@@ -11,16 +11,14 @@ const AboutHarriet = () => {
       <div className="aboutHarriet content">
         <img src="/assets/harriet.webp" alt="" />
         <h2>
-          Ten years teaching and twenty five years playing
-          <br /> help me get the absolute best from every student.
+          10 years teaching. <br /> 25 years playing.
         </h2>
         <p>
           Lorem ipsum odor amet, consectetuer adipiscing elit. Fringilla non
           luctus lacinia; eget interdum quisque. Metus aptent maecenas aliquam,
           mi fames lobortis. Aenean lacinia ut felis sem odio etiam? Vehicula
           tortor sagittis platea ridiculus malesuada; tellus quis. Tempus hac
-          duis quisque; class odio malesuada. Sodales arcu ut nascetur lorem
-          velit magna natoque est pulvinar.
+          duis quisque; class odio malesuada.
         </p>
         <button className="enquire">
           <a href="/contact">Enquire now</a>

@@ -14,10 +14,10 @@ const NavBar = () => {
         </div>
         <div className="navigation">
           <Link to="/aboutHarriet" className="navLink">
-            About Harriet
+            About Me
           </Link>
           <Link to="/suzukiMethod" className="navLink">
-            Suzuki Method
+            Suzuki
           </Link>
           <Link to="/calendar" className="navLink">
             Calendar

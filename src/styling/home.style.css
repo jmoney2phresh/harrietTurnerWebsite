@@ -4,16 +4,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #f6f7ec;
+  padding: 5% 0;
 }
 
-.opaque img {
+.homePage p {
+  padding: 0 10%;
+}
+
+.homePage img {
   height: 400px;
   width: auto;
-}
-
-.opaque {
-  width: 600px;
-  height: 100%;
-  color: #f6f7ec;
-  padding: 10% 0;
 }

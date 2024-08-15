@@ -5,6 +5,7 @@
   align-items: center;
   gap: 25px;
   background-color: #cae9ff;
+  color: #022b3a;
 }
 
 .aboutHarriet img {
@@ -16,6 +17,7 @@
 .aboutHarriet p {
   max-width: 600px;
   margin: 10px;
+  margin-bottom: 40px;
 }
 
 .aboutHarriet h2 {
@@ -31,7 +33,7 @@
   font-size: 20px; /* Adjust font size */
   cursor: pointer;
   margin-right: 2.5%;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   opacity: 0.8;
   color: #f6f7ec;
   text-decoration: none;
@@ -49,6 +51,9 @@
 }
 
 @media (max-width: 900px) {
+  .aboutHarriet {
+    padding: 10% 0;
+  }
   .aboutHarriet p {
     padding: 0 10%;
   }

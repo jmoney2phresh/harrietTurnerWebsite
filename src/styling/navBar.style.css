@@ -43,4 +43,8 @@
     font-size: 14px;
     gap: 10px;
   }
+  .navigation {
+    max-width: 450px;
+    flex-wrap: wrap;
+  }
 }

@@ -37,7 +37,7 @@
 
 @media (max-width: 900px) {
   .logoArea img {
-    height: 80px;
+    height: 60px;
   }
   .navLink {
     font-size: 14px;
@@ -46,5 +46,6 @@
   .navigation {
     max-width: 450px;
     flex-wrap: wrap;
+    row-gap: 10px;
   }
 }

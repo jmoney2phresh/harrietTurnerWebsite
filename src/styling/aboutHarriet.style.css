@@ -57,4 +57,7 @@
   .aboutHarriet p {
     padding: 0 10%;
   }
+  .aboutHarriet img {
+    width: 250px;
+  }
 }

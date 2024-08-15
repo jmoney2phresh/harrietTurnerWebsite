@@ -66,3 +66,11 @@
     padding: 0 10%;
   }
 }
+
+@media (max-width: 500px) {
+  .principles,
+  .intro .cta {
+    padding: 0;
+    width: 350px;
+  }
+}

@@ -60,6 +60,7 @@
   }
   .cta {
     padding: 0 10% 20px 10%;
+    max-width: 600px;
   }
   .suzukiMethod h1 {
     padding: 0 10%;

@@ -12,7 +12,7 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What age should my child start violin lessons?",
+      question: "When should my child start violin lessons?",
       answer:
         "Children can start learning the violin as young as 3 or 4 years old. Each child is different, so it's best to discuss with the teacher to assess readiness.",
     },
@@ -32,7 +32,7 @@ const FAQ = () => {
         "I primarily use the Suzuki Method, which emphasizes learning by ear, parental involvement, and starting at a young age.",
     },
     {
-      question: "How do I ensure my child enjoys practicing?",
+      question: "How do I know if my child enjoys practicing?",
       answer:
         "Creating a positive practice environment, setting small goals, and incorporating games and rewards can help make practice more enjoyable for your child.",
     },
@@ -42,7 +42,11 @@ const FAQ = () => {
     <>
       <NavBar />
       <div className="faqSection content">
-        <h1 className="faqTitle">Frequently Asked Questions</h1>
+        <h1 className="faqTitle">
+          Frequently
+          <br />
+          Asked Questions
+        </h1>
         {faqData.map((item, index) => (
           <div key={index} className="faq-item">
             <h2 className="faqQuestion" onClick={() => toggleFAQ(index)}>

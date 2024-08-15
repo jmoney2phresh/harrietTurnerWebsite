@@ -2,9 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+iframe {
   background-color: #cae9ff;
 }
 
 @media (max-width: 900px) {
-  
 }

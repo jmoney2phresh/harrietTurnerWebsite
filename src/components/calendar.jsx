@@ -11,9 +11,9 @@ const Calendar = () => {
         <iframe
           src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ25Am5Zz3tNMWYR7rcWGSJygFE2vlkALhKmVJ1_B7MsteA2dixDwtlsQQbaYgtYxpllQwsoKWqb?gv=true"
           style={{ border: 0 }}
-          width="80%"
+          width="85%"
           padding="10%"
-          height="700"
+          height="800px"
           frameborder="0"
         ></iframe>
       </div>

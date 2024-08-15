@@ -48,7 +48,7 @@ const FAQ = () => {
           Asked Questions
         </h1>
         {faqData.map((item, index) => (
-          <div key={index} className="faq-item">
+          <div key={index} className="faqItem">
             <h2 className="faqQuestion" onClick={() => toggleFAQ(index)}>
               {item.question}
             </h2>

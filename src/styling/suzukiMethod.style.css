@@ -43,9 +43,15 @@
   padding: 20px 15% 40px 15%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .principles {
     text-align: center;
-    padding: 0 40px;
+    padding: 0 10%;
+  }
+  .principlesImage {
+    display: none;
+  }
+  .cta {
+    padding: 0 10% 20px 10%;
   }
 }

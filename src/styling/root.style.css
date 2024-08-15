@@ -45,4 +45,14 @@ hr {
   min-height: 77vh;
   min-width: 100%;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .content {
+    max-width: 900px;
+  }
 }

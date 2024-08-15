@@ -35,11 +35,12 @@
   height: 100px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .logoArea img {
     height: 80px;
   }
   .navLink {
-    font-size: 16px;
+    font-size: 14px;
+    gap: 10px;
   }
 }

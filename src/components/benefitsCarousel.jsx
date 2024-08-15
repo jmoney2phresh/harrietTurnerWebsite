@@ -36,7 +36,7 @@ const SuzukiBenefitsCarousel = () => {
   };
 
   return (
-    <div className="benefitsText content">
+    <div className="benefitsText">
       <h2 className="title">Benefits of Suzuki</h2>
       <div className="carousel">
         {benefits.map((benefit, index) => (
